@@ -22,24 +22,22 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Load medication database - flexible path finding
-def find_database():
-    """Find the medications database in multiple possible locations"""
-    possible_paths = [
-        Path(__file__).parent / "medications_database.json",  # Same folder as main.py
-        Path(__file__).parent / "data" / "medications_database.json",  # In data subfolder
-        Path(__file__).parent.parent / "data" / "medications_database.json",  # Parent's data folder
-    ]
-    
-    for path in possible_paths:
-        if path.exists():
-            return path
-    
-    raise FileNotFoundError("medications_database.json not found. Please ensure it's in the correct location.")
+# SIMPLIFIED DATABASE LOADING - FIXED FOR RENDER
+def load_database():
+    """Load medication database - simplified for Render deployment"""
+    try:
+        # Try current directory first (Render's deployment location)
+        with open('medications_database.json', 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        # Fallback to same directory as main.py
+        base_dir = Path(__file__).parent
+        db_path = base_dir / "medications_database.json"
+        with open(db_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
 
-DATABASE_PATH = find_database()
-with open(DATABASE_PATH) as f:
-    MEDICATION_DB = json.load(f)
+# Load database
+MEDICATION_DB = load_database()
 
 class SeverityFlag(str, Enum):
     BLACK_FLAG = "BLACK_FLAG"  # Contraindicated/Deadly
