@@ -1,0 +1,2269 @@
+{
+  "medications": [
+    {
+      "id": "alprazolam",
+      "name": "Alprazolam",
+      "generic_name": "alprazolam",
+      "brand_names": [
+        "Xanax"
+      ],
+      "class": "Benzodiazepine",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Acute narrow-angle glaucoma",
+        "Concurrent opioids (black box)"
+      ],
+      "side_effects": [],
+      "mechanism": "CNS depression"
+    },
+    {
+      "id": "diazepam",
+      "name": "Diazepam",
+      "generic_name": "diazepam",
+      "brand_names": [
+        "Valium"
+      ],
+      "class": "Benzodiazepine",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Myasthenia gravis",
+        "Severe respiratory insufficiency"
+      ],
+      "side_effects": [],
+      "mechanism": "Long half-life"
+    },
+    {
+      "id": "lorazepam",
+      "name": "Lorazepam",
+      "generic_name": "lorazepam",
+      "brand_names": [
+        "Ativan"
+      ],
+      "class": "Benzodiazepine",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Acute narrow-angle glaucoma"
+      ],
+      "side_effects": [],
+      "mechanism": "CNS depression"
+    },
+    {
+      "id": "clonazepam",
+      "name": "Clonazepam",
+      "generic_name": "clonazepam",
+      "brand_names": [
+        "Klonopin"
+      ],
+      "class": "Benzodiazepine",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Significant liver disease",
+        "Acute narrow-angle glaucoma"
+      ],
+      "side_effects": [],
+      "mechanism": "Long-acting"
+    },
+    {
+      "id": "temazepam",
+      "name": "Temazepam",
+      "generic_name": "temazepam",
+      "brand_names": [
+        "Restoril"
+      ],
+      "class": "Benzodiazepine",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Pregnancy",
+        "Sleep apnea"
+      ],
+      "side_effects": [],
+      "mechanism": "For insomnia only"
+    },
+    {
+      "id": "triazolam",
+      "name": "Triazolam",
+      "generic_name": "triazolam",
+      "brand_names": [
+        "Halcion"
+      ],
+      "class": "Benzodiazepine",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Ketoconazole/itraconazole use",
+        "Pregnancy"
+      ],
+      "side_effects": [],
+      "mechanism": "Ultra-short acting"
+    },
+    {
+      "id": "oxazepam",
+      "name": "Oxazepam",
+      "generic_name": "oxazepam",
+      "brand_names": [
+        "Serax"
+      ],
+      "class": "Benzodiazepine",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Acute narrow-angle glaucoma"
+      ],
+      "side_effects": [],
+      "mechanism": "Safer in liver disease"
+    },
+    {
+      "id": "midazolam",
+      "name": "Midazolam",
+      "generic_name": "midazolam",
+      "brand_names": [
+        "Versed"
+      ],
+      "class": "Benzodiazepine",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Acute narrow-angle glaucoma",
+        "Shock"
+      ],
+      "side_effects": [],
+      "mechanism": "Procedural sedation only"
+    },
+    {
+      "id": "oxycodone",
+      "name": "Oxycodone",
+      "generic_name": "oxycodone",
+      "brand_names": [
+        "OxyContin/Roxicodone"
+      ],
+      "class": "Opioid",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "BLACK BOX: Fatal with benzos",
+        "risk_level": "HIGH"
+      },
+      "contraindications": [
+        "Respiratory depression",
+        "Acute/severe asthma",
+        "GI obstruction"
+      ],
+      "side_effects": [],
+      "mechanism": "High abuse potential"
+    },
+    {
+      "id": "hydrocodone",
+      "name": "Hydrocodone",
+      "generic_name": "hydrocodone",
+      "brand_names": [
+        "Norco/Vicodin"
+      ],
+      "class": "Opioid",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Respiratory depression",
+        "Acute asthma"
+      ],
+      "side_effects": [],
+      "mechanism": "Often combined with acetaminophen"
+    },
+    {
+      "id": "morphine",
+      "name": "Morphine",
+      "generic_name": "morphine",
+      "brand_names": [
+        "MS Contin"
+      ],
+      "class": "Opioid",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Respiratory depression",
+        "Acute asthma",
+        "Paralytic ileus"
+      ],
+      "side_effects": [],
+      "mechanism": "Standard for opioid comparison"
+    },
+    {
+      "id": "fentanyl",
+      "name": "Fentanyl",
+      "generic_name": "fentanyl",
+      "brand_names": [
+        "Duragesic/Actiq"
+      ],
+      "class": "Opioid",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Opioid-naive patients (patch)",
+        "Acute pain"
+      ],
+      "side_effects": [],
+      "mechanism": "100x potency of morphine"
+    },
+    {
+      "id": "tramadol",
+      "name": "Tramadol",
+      "generic_name": "tramadol",
+      "brand_names": [
+        "Ultram"
+      ],
+      "class": "Opioid",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Uncontrolled epilepsy",
+        "MAOIs"
+      ],
+      "side_effects": [],
+      "mechanism": "SNRI properties"
+    },
+    {
+      "id": "codeine",
+      "name": "Codeine",
+      "generic_name": "codeine",
+      "brand_names": [
+        "Generic"
+      ],
+      "class": "Opioid",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Post-tonsillectomy in children",
+        "Respiratory depression"
+      ],
+      "side_effects": [],
+      "mechanism": "Prodrug (converts to morphine)"
+    },
+    {
+      "id": "hydromorphone",
+      "name": "Hydromorphone",
+      "generic_name": "hydromorphone",
+      "brand_names": [
+        "Dilaudid"
+      ],
+      "class": "Opioid",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Respiratory depression",
+        "Status asthmaticus"
+      ],
+      "side_effects": [],
+      "mechanism": "5-7x potency of morphine"
+    },
+    {
+      "id": "oxymorphone",
+      "name": "Oxymorphone",
+      "generic_name": "oxymorphone",
+      "brand_names": [
+        "Opana"
+      ],
+      "class": "Opioid",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Respiratory depression",
+        "Moderate-severe hepatic impairment"
+      ],
+      "side_effects": [],
+      "mechanism": "10x potency of morphine"
+    },
+    {
+      "id": "methadone",
+      "name": "Methadone",
+      "generic_name": "methadone",
+      "brand_names": [
+        "Dolophine"
+      ],
+      "class": "Opioid",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Respiratory depression",
+        "QT prolongation"
+      ],
+      "side_effects": [],
+      "mechanism": "QT prolongation"
+    },
+    {
+      "id": "ibuprofen",
+      "name": "Ibuprofen",
+      "generic_name": "ibuprofen",
+      "brand_names": [
+        "Advil/Motrin"
+      ],
+      "class": "NSAID",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Active GI bleeding",
+        "CABG surgery",
+        "Third trimester pregnancy"
+      ],
+      "side_effects": [],
+      "mechanism": "GI bleeding"
+    },
+    {
+      "id": "naproxen",
+      "name": "Naproxen",
+      "generic_name": "naproxen",
+      "brand_names": [
+        "Aleve/Naprosyn"
+      ],
+      "class": "NSAID",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Active GI ulcer",
+        "Late pregnancy"
+      ],
+      "side_effects": [],
+      "mechanism": "Longer half-life = sustained effect"
+    },
+    {
+      "id": "celecoxib",
+      "name": "Celecoxib",
+      "generic_name": "celecoxib",
+      "brand_names": [
+        "Celebrex"
+      ],
+      "class": "NSAID (COX-2 Selective)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Sulfonamide allergy",
+        "CABG surgery"
+      ],
+      "side_effects": [],
+      "mechanism": "Sulfa allergy"
+    },
+    {
+      "id": "meloxicam",
+      "name": "Meloxicam",
+      "generic_name": "meloxicam",
+      "brand_names": [
+        "Mobic"
+      ],
+      "class": "NSAID",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Active GI bleeding",
+        "Severe renal impairment"
+      ],
+      "side_effects": [],
+      "mechanism": "Once-daily dosing"
+    },
+    {
+      "id": "diclofenac",
+      "name": "Diclofenac",
+      "generic_name": "diclofenac",
+      "brand_names": [
+        "Voltaren"
+      ],
+      "class": "NSAID",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "CABG surgery",
+        "Active GI ulceration"
+      ],
+      "side_effects": [],
+      "mechanism": "Highest CV risk among NSAIDs"
+    },
+    {
+      "id": "ketorolac",
+      "name": "Ketorolac",
+      "generic_name": "ketorolac",
+      "brand_names": [
+        "Toradol"
+      ],
+      "class": "NSAID",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Renal impairment",
+        "Active bleeding",
+        "CABG surgery"
+      ],
+      "side_effects": [],
+      "mechanism": "SHORT-TERM USE ONLY (\u22645 days)"
+    },
+    {
+      "id": "indomethacin",
+      "name": "Indomethacin",
+      "generic_name": "indomethacin",
+      "brand_names": [
+        "Indocin"
+      ],
+      "class": "NSAID",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Active GI ulceration",
+        "Rectal bleeding (suppository)"
+      ],
+      "side_effects": [],
+      "mechanism": "High CNS side effect risk (headache, dizziness)"
+    },
+    {
+      "id": "aspirin",
+      "name": "Aspirin",
+      "generic_name": "aspirin",
+      "brand_names": [
+        "Bayer/Ecotrin"
+      ],
+      "class": "NSAID/Antiplatelet",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Children with viral illness",
+        "Hemophilia"
+      ],
+      "side_effects": [],
+      "mechanism": "Irreversible platelet inhibition"
+    },
+    {
+      "id": "zolpidem",
+      "name": "Zolpidem",
+      "generic_name": "zolpidem",
+      "brand_names": [
+        "Ambien"
+      ],
+      "class": "Sleep Aid (Z-drug)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Previous complex sleep behaviors"
+      ],
+      "side_effects": [],
+      "mechanism": "Complex sleep behaviors"
+    },
+    {
+      "id": "eszopiclone",
+      "name": "Eszopiclone",
+      "generic_name": "eszopiclone",
+      "brand_names": [
+        "Lunesta"
+      ],
+      "class": "Sleep Aid (Z-drug)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Severe hepatic impairment"
+      ],
+      "side_effects": [],
+      "mechanism": "Metallic taste"
+    },
+    {
+      "id": "zaleplon",
+      "name": "Zaleplon",
+      "generic_name": "zaleplon",
+      "brand_names": [
+        "Sonata"
+      ],
+      "class": "Sleep Aid (Z-drug)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Severe hepatic impairment"
+      ],
+      "side_effects": [],
+      "mechanism": "Ultra-short acting"
+    },
+    {
+      "id": "ramelteon",
+      "name": "Ramelteon",
+      "generic_name": "ramelteon",
+      "brand_names": [
+        "Rozerem"
+      ],
+      "class": "Sleep Aid (Melatonin Agonist)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Severe hepatic impairment",
+        "Fluvoxamine use"
+      ],
+      "side_effects": [],
+      "mechanism": "No abuse potential"
+    },
+    {
+      "id": "suvorexant",
+      "name": "Suvorexant",
+      "generic_name": "suvorexant",
+      "brand_names": [
+        "Belsomra"
+      ],
+      "class": "Sleep Aid (Orexin Antagonist)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Narcolepsy"
+      ],
+      "side_effects": [],
+      "mechanism": "Narcolepsy-like symptoms possible"
+    },
+    {
+      "id": "doxepin",
+      "name": "Doxepin",
+      "generic_name": "doxepin",
+      "brand_names": [
+        "Silenor"
+      ],
+      "class": "Sleep Aid (TCA)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Glaucoma",
+        "Urinary retention",
+        "MAOIs"
+      ],
+      "side_effects": [],
+      "mechanism": "Low-dose tricyclic"
+    },
+    {
+      "id": "trazodone",
+      "name": "Trazodone",
+      "generic_name": "trazodone",
+      "brand_names": [
+        "Desyrel"
+      ],
+      "class": "Sleep Aid (Antidepressant)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "MAOIs",
+        "Recent MI"
+      ],
+      "side_effects": [],
+      "mechanism": "Off-label for insomnia"
+    },
+    {
+      "id": "metformin",
+      "name": "Metformin",
+      "generic_name": "metformin",
+      "brand_names": [
+        "Glucophage"
+      ],
+      "class": "Diabetes (Biguanide)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "eGFR <30",
+        "Metabolic acidosis",
+        "Acute CHF"
+      ],
+      "side_effects": [],
+      "mechanism": "Lactic acidosis risk"
+    },
+    {
+      "id": "glipizide",
+      "name": "Glipizide",
+      "generic_name": "glipizide",
+      "brand_names": [
+        "Glucotrol"
+      ],
+      "class": "Diabetes (Sulfonylurea)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Type 1 diabetes",
+        "Diabetic ketoacidosis"
+      ],
+      "side_effects": [],
+      "mechanism": "Hypoglycemia risk"
+    },
+    {
+      "id": "glyburide",
+      "name": "Glyburide",
+      "generic_name": "glyburide",
+      "brand_names": [
+        "Diabeta"
+      ],
+      "class": "Diabetes (Sulfonylurea)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Type 1 diabetes",
+        "Severe renal/hepatic impairment"
+      ],
+      "side_effects": [],
+      "mechanism": "Highest hypoglycemia risk of sulfonylureas"
+    },
+    {
+      "id": "sitagliptin",
+      "name": "Sitagliptin",
+      "generic_name": "sitagliptin",
+      "brand_names": [
+        "Januvia"
+      ],
+      "class": "Diabetes (DPP-4 Inhibitor)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Type 1 diabetes",
+        "Diabetic ketoacidosis"
+      ],
+      "side_effects": [],
+      "mechanism": "Pancreatitis risk"
+    },
+    {
+      "id": "pioglitazone",
+      "name": "Pioglitazone",
+      "generic_name": "pioglitazone",
+      "brand_names": [
+        "Actos"
+      ],
+      "class": "Diabetes (Thiazolidinedione)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Heart failure (NYHA Class III-IV)",
+        "Bladder cancer"
+      ],
+      "side_effects": [],
+      "mechanism": "Heart failure risk"
+    },
+    {
+      "id": "empagliflozin",
+      "name": "Empagliflozin",
+      "generic_name": "empagliflozin",
+      "brand_names": [
+        "Jardiance"
+      ],
+      "class": "Diabetes (SGLT2 Inhibitor)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Dialysis",
+        "Severe renal impairment"
+      ],
+      "side_effects": [],
+      "mechanism": "Genital infections"
+    },
+    {
+      "id": "canagliflozin",
+      "name": "Canagliflozin",
+      "generic_name": "canagliflozin",
+      "brand_names": [
+        "Invokana"
+      ],
+      "class": "Diabetes (SGLT2 Inhibitor)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Dialysis",
+        "Severe renal impairment"
+      ],
+      "side_effects": [],
+      "mechanism": "Amputation risk (toe/foot)"
+    },
+    {
+      "id": "acarbose",
+      "name": "Acarbose",
+      "generic_name": "acarbose",
+      "brand_names": [
+        "Precose"
+      ],
+      "class": "Diabetes (Alpha-Glucosidase Inhibitor)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "IBD",
+        "Cirrhosis",
+        "Intestinal obstruction"
+      ],
+      "side_effects": [],
+      "mechanism": "Flatulence/diarrhea"
+    },
+    {
+      "id": "amoxicillin",
+      "name": "Amoxicillin",
+      "generic_name": "amoxicillin",
+      "brand_names": [
+        "Amoxil"
+      ],
+      "class": "Penicillin Antibiotic",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Penicillin allergy",
+        "Mononucleosis (rash risk)"
+      ],
+      "side_effects": [],
+      "mechanism": "Hypersensitivity reactions"
+    },
+    {
+      "id": "azithromycin",
+      "name": "Azithromycin",
+      "generic_name": "azithromycin",
+      "brand_names": [
+        "Zithromax"
+      ],
+      "class": "Macrolide Antibiotic",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "History of cholestatic jaundice with azithromycin"
+      ],
+      "side_effects": [],
+      "mechanism": "QT prolongation"
+    },
+    {
+      "id": "ciprofloxacin",
+      "name": "Ciprofloxacin",
+      "generic_name": "ciprofloxacin",
+      "brand_names": [
+        "Cipro"
+      ],
+      "class": "Fluoroquinolone Antibiotic",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "BLACK BOX: Tendon rupture",
+        "risk_level": "HIGH"
+      },
+      "contraindications": [
+        "Concurrent tizanidine",
+        "Myasthenia gravis"
+      ],
+      "side_effects": [],
+      "mechanism": "BLACK BOX: Tendon rupture"
+    },
+    {
+      "id": "doxycycline",
+      "name": "Doxycycline",
+      "generic_name": "doxycycline",
+      "brand_names": [
+        "Vibramycin"
+      ],
+      "class": "Tetracycline Antibiotic",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Pregnancy",
+        "Children <8 years",
+        "Severe hepatic impairment"
+      ],
+      "side_effects": [],
+      "mechanism": "Photosensitivity"
+    },
+    {
+      "id": "cephalexin",
+      "name": "Cephalexin",
+      "generic_name": "cephalexin",
+      "brand_names": [
+        "Keflex"
+      ],
+      "class": "Cephalosporin Antibiotic",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Cephalosporin allergy"
+      ],
+      "side_effects": [],
+      "mechanism": "Cross-reactivity with penicillin allergy"
+    },
+    {
+      "id": "escitalopram",
+      "name": "Escitalopram",
+      "generic_name": "escitalopram",
+      "brand_names": [
+        "Lexapro"
+      ],
+      "class": "SSRI Antidepressant",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "BLACK BOX: Suicidal ideation in youth",
+        "risk_level": "HIGH"
+      },
+      "contraindications": [
+        "MAOIs within 14 days",
+        "Pimozide"
+      ],
+      "side_effects": [],
+      "mechanism": "BLACK BOX: Suicidal ideation in youth"
+    },
+    {
+      "id": "sertraline",
+      "name": "Sertraline",
+      "generic_name": "sertraline",
+      "brand_names": [
+        "Zoloft"
+      ],
+      "class": "SSRI Antidepressant",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "BLACK BOX: Suicidal thoughts",
+        "risk_level": "HIGH"
+      },
+      "contraindications": [
+        "MAOIs",
+        "Pimozide",
+        "Disulfiram (with oral solution)"
+      ],
+      "side_effects": [],
+      "mechanism": "BLACK BOX: Suicidal thoughts"
+    },
+    {
+      "id": "venlafaxine",
+      "name": "Venlafaxine",
+      "generic_name": "venlafaxine",
+      "brand_names": [
+        "Effexor XR"
+      ],
+      "class": "SNRI Antidepressant",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "BLACK BOX: Suicidal ideation",
+        "risk_level": "HIGH"
+      },
+      "contraindications": [
+        "MAOIs within 14 days"
+      ],
+      "side_effects": [],
+      "mechanism": "BLACK BOX: Suicidal ideation"
+    },
+    {
+      "id": "duloxetine",
+      "name": "Duloxetine",
+      "generic_name": "duloxetine",
+      "brand_names": [
+        "Cymbalta"
+      ],
+      "class": "SNRI Antidepressant",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "BLACK BOX: Suicidal ideation",
+        "risk_level": "HIGH"
+      },
+      "contraindications": [
+        "Uncontrolled narrow-angle glaucoma",
+        "MAOIs",
+        "Hepatic insufficiency"
+      ],
+      "side_effects": [],
+      "mechanism": "BLACK BOX: Suicidal ideation"
+    },
+    {
+      "id": "bupropion",
+      "name": "Bupropion",
+      "generic_name": "bupropion",
+      "brand_names": [
+        "Wellbutrin"
+      ],
+      "class": "NDRI Antidepressant",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "BLACK BOX: Suicidal ideation",
+        "risk_level": "HIGH"
+      },
+      "contraindications": [
+        "Seizure disorder",
+        "Bulimia/anorexia",
+        "Abrupt discontinuation of alcohol/sedatives",
+        "MAOIs"
+      ],
+      "side_effects": [],
+      "mechanism": "BLACK BOX: Suicidal ideation"
+    },
+    {
+      "id": "mirtazapine",
+      "name": "Mirtazapine",
+      "generic_name": "mirtazapine",
+      "brand_names": [
+        "Remeron"
+      ],
+      "class": "Tetracyclic Antidepressant",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "BLACK BOX: Suicidal ideation",
+        "risk_level": "HIGH"
+      },
+      "contraindications": [
+        "MAOIs within 14 days"
+      ],
+      "side_effects": [],
+      "mechanism": "BLACK BOX: Suicidal ideation"
+    },
+    {
+      "id": "atenolol",
+      "name": "Atenolol",
+      "generic_name": "atenolol",
+      "brand_names": [
+        "Tenormin"
+      ],
+      "class": "Beta Blocker",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Sinus bradycardia",
+        "Heart block",
+        "Cardiogenic shock",
+        "Uncompensated heart failure"
+      ],
+      "side_effects": [],
+      "mechanism": "Bradycardia"
+    },
+    {
+      "id": "carvedilol",
+      "name": "Carvedilol",
+      "generic_name": "carvedilol",
+      "brand_names": [
+        "Coreg"
+      ],
+      "class": "Beta Blocker (non-selective)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Decompensated heart failure",
+        "Severe bradycardia",
+        "Heart block"
+      ],
+      "side_effects": [],
+      "mechanism": "Bradycardia"
+    },
+    {
+      "id": "lisinopril",
+      "name": "Lisinopril",
+      "generic_name": "lisinopril",
+      "brand_names": [
+        "Prinivil/Zestril"
+      ],
+      "class": "ACE Inhibitor",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "BLACK BOX: Fetal toxicity",
+        "risk_level": "HIGH"
+      },
+      "contraindications": [
+        "Pregnancy",
+        "History of angioedema",
+        "Concurrent aliskiren (in diabetes)"
+      ],
+      "side_effects": [],
+      "mechanism": "BLACK BOX: Fetal toxicity"
+    },
+    {
+      "id": "atorvastatin",
+      "name": "Atorvastatin",
+      "generic_name": "atorvastatin",
+      "brand_names": [
+        "Lipitor"
+      ],
+      "class": "Statin",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Active liver disease",
+        "Pregnancy",
+        "Breastfeeding"
+      ],
+      "side_effects": [],
+      "mechanism": "Myopathy/rhabdomyolysis"
+    },
+    {
+      "id": "rosuvastatin",
+      "name": "Rosuvastatin",
+      "generic_name": "rosuvastatin",
+      "brand_names": [
+        "Crestor"
+      ],
+      "class": "Statin",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Active liver disease",
+        "Pregnancy",
+        "Breastfeeding",
+        "Asian ancestry (higher levels)"
+      ],
+      "side_effects": [],
+      "mechanism": "Myopathy/rhabdomyolysis"
+    },
+    {
+      "id": "amlodipine",
+      "name": "Amlodipine",
+      "generic_name": "amlodipine",
+      "brand_names": [
+        "Norvasc"
+      ],
+      "class": "Calcium Channel Blocker",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Severe hypotension",
+        "Aortic stenosis (severe)"
+      ],
+      "side_effects": [],
+      "mechanism": "Peripheral edema"
+    },
+    {
+      "id": "omeprazole",
+      "name": "Omeprazole",
+      "generic_name": "omeprazole",
+      "brand_names": [
+        "Prilosec"
+      ],
+      "class": "Proton Pump Inhibitor",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Rilpivirine",
+        "Hypersensitivity"
+      ],
+      "side_effects": [],
+      "mechanism": "C. difficile infection"
+    },
+    {
+      "id": "pantoprazole",
+      "name": "Pantoprazole",
+      "generic_name": "pantoprazole",
+      "brand_names": [
+        "Protonix"
+      ],
+      "class": "Proton Pump Inhibitor",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Rilpivirine"
+      ],
+      "side_effects": [],
+      "mechanism": "C. difficile"
+    },
+    {
+      "id": "ondansetron",
+      "name": "Ondansetron",
+      "generic_name": "ondansetron",
+      "brand_names": [
+        "Zofran"
+      ],
+      "class": "Antiemetic (5-HT3 Antagonist)",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Concomitant apomorphine",
+        "Congenital long QT syndrome"
+      ],
+      "side_effects": [],
+      "mechanism": "QT prolongation"
+    },
+    {
+      "id": "albuterol",
+      "name": "Albuterol",
+      "generic_name": "albuterol",
+      "brand_names": [
+        "ProAir/Ventolin"
+      ],
+      "class": "Short-Acting Beta-2 Agonist",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Hypersensitivity"
+      ],
+      "side_effects": [],
+      "mechanism": "Tachycardia"
+    },
+    {
+      "id": "montelukast",
+      "name": "Montelukast",
+      "generic_name": "montelukast",
+      "brand_names": [
+        "Singulair"
+      ],
+      "class": "Leukotriene Receptor Antagonist",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "BLACK BOX: Neuropsychiatric events",
+        "risk_level": "HIGH"
+      },
+      "contraindications": [
+        "Hypersensitivity"
+      ],
+      "side_effects": [],
+      "mechanism": "BLACK BOX: Neuropsychiatric events"
+    },
+    {
+      "id": "fluticasone",
+      "name": "Fluticasone",
+      "generic_name": "fluticasone",
+      "brand_names": [
+        "Flovent"
+      ],
+      "class": "Inhaled Corticosteroid",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Primary treatment of status asthmaticus"
+      ],
+      "side_effects": [],
+      "mechanism": "Oral candidiasis"
+    },
+    {
+      "id": "levothyroxine",
+      "name": "Levothyroxine",
+      "generic_name": "levothyroxine",
+      "brand_names": [
+        "Synthroid/Levoxyl"
+      ],
+      "class": "Thyroid Hormone",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "BLACK BOX: Not for obesity/weight loss",
+        "risk_level": "HIGH"
+      },
+      "contraindications": [
+        "Uncorrected adrenal insufficiency",
+        "Acute MI",
+        "Thyrotoxicosis"
+      ],
+      "side_effects": [],
+      "mechanism": "BLACK BOX: Not for obesity/weight loss"
+    },
+    {
+      "id": "cetirizine",
+      "name": "Cetirizine",
+      "generic_name": "cetirizine",
+      "brand_names": [
+        "Zyrtec"
+      ],
+      "class": "Second Generation Antihistamine",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Severe renal impairment"
+      ],
+      "side_effects": [],
+      "mechanism": "Drowsiness"
+    },
+    {
+      "id": "diphenhydramine",
+      "name": "Diphenhydramine",
+      "generic_name": "diphenhydramine",
+      "brand_names": [
+        "Benadryl"
+      ],
+      "class": "First Generation Antihistamine",
+      "cyp_metabolism": [],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "Neonates/premature infants",
+        "Narrow-angle glaucoma",
+        "Urinary retention"
+      ],
+      "side_effects": [],
+      "mechanism": "ANTICHOLINERGIC"
+    },
+    {
+      "id": "warfarin",
+      "name": "Warfarin",
+      "generic_name": "warfarin sodium",
+      "brand_names": [
+        "Coumadin",
+        "Jantoven"
+      ],
+      "class": "Anticoagulant",
+      "cyp_metabolism": [
+        "CYP2C9",
+        "CYP3A4",
+        "CYP1A2"
+      ],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "BLEEDING RISK: Can cause major or fatal bleeding. Risk factors include high intensity anticoagulation, age \u226565, highly variable INRs, history of GI bleeding, hypertension, cerebrovascular disease, serious heart disease, anemia, malignancy, trauma, renal insufficiency, concomitant drugs, and long duration of therapy.",
+        "risk_level": "CRITICAL"
+      },
+      "contraindications": [
+        "pregnancy",
+        "active bleeding",
+        "hemorrhagic tendencies",
+        "recent CNS surgery",
+        "severe liver disease"
+      ],
+      "side_effects": [
+        "bleeding",
+        "bruising",
+        "nosebleeds",
+        "blood in urine",
+        "black stools"
+      ],
+      "mechanism": "Inhibits vitamin K-dependent clotting factors (II, VII, IX, X)"
+    },
+    {
+      "id": "fluconazole",
+      "name": "Fluconazole",
+      "generic_name": "fluconazole",
+      "brand_names": [
+        "Diflucan"
+      ],
+      "class": "Antifungal",
+      "cyp_metabolism": [
+        "CYP2C9",
+        "CYP3A4",
+        "CYP2C19"
+      ],
+      "cyp_role": "inhibitor",
+      "black_box_warning": null,
+      "contraindications": [
+        "QT prolongation",
+        "hypersensitivity to azoles"
+      ],
+      "side_effects": [
+        "nausea",
+        "headache",
+        "liver enzyme elevation",
+        "QT prolongation"
+      ],
+      "mechanism": "Inhibits fungal cytochrome P450 enzyme 14\u03b1-demethylase"
+    },
+    {
+      "id": "clopidogrel",
+      "name": "Clopidogrel",
+      "generic_name": "clopidogrel bisulfate",
+      "brand_names": [
+        "Plavix"
+      ],
+      "class": "Antiplatelet (P2Y12 Inhibitor)",
+      "cyp_metabolism": [
+        "CYP2C19"
+      ],
+      "cyp_role": "substrate",
+      "black_box_warning": {
+        "warning": "DIMINISHED EFFECTIVENESS IN POOR METABOLIZERS: Effectiveness depends on activation to an active metabolite by CYP2C19. Poor metabolizers exhibit higher cardiovascular event rates than extensive metabolizers.",
+        "risk_level": "MODERATE"
+      },
+      "contraindications": [
+        "active pathological bleeding",
+        "intracranial hemorrhage"
+      ],
+      "side_effects": [
+        "bleeding",
+        "bruising",
+        "itching",
+        "TTP (rare)"
+      ],
+      "mechanism": "Inhibits P2Y12 component of ADP receptors on platelets"
+    },
+    {
+      "id": "gabapentin",
+      "name": "Gabapentin",
+      "generic_name": "gabapentin",
+      "brand_names": [
+        "Neurontin",
+        "Gralise"
+      ],
+      "class": "Anticonvulsant/Neuropathic Pain Agent",
+      "cyp_metabolism": [],
+      "black_box_warning": null,
+      "contraindications": [
+        "hypersensitivity"
+      ],
+      "side_effects": [
+        "dizziness",
+        "somnolence",
+        "ataxia",
+        "fatigue",
+        "peripheral edema"
+      ],
+      "mechanism": "Binds to alpha2-delta subunit of voltage-gated calcium channels"
+    },
+    {
+      "id": "prednisone",
+      "name": "Prednisone",
+      "generic_name": "prednisone",
+      "brand_names": [
+        "Deltasone",
+        "Rayos"
+      ],
+      "class": "Corticosteroid",
+      "cyp_metabolism": [
+        "CYP3A4"
+      ],
+      "cyp_role": "substrate",
+      "black_box_warning": null,
+      "contraindications": [
+        "systemic fungal infections",
+        "live vaccine administration"
+      ],
+      "side_effects": [
+        "hyperglycemia",
+        "hypertension",
+        "osteoporosis",
+        "immunosuppression",
+        "adrenal suppression",
+        "mood changes"
+      ],
+      "mechanism": "Binds to glucocorticoid receptors, modulates gene transcription"
+    },
+    {
+      "id": "furosemide",
+      "name": "Furosemide",
+      "generic_name": "furosemide",
+      "brand_names": [
+        "Lasix"
+      ],
+      "class": "Loop Diuretic",
+      "cyp_metabolism": [],
+      "black_box_warning": {
+        "warning": "OTOTOXICITY: Furosemide is a potent diuretic which, if given in excessive amounts, can lead to profound diuresis with water and electrolyte depletion. Ototoxicity has been observed with rapid injection.",
+        "risk_level": "MODERATE"
+      },
+      "contraindications": [
+        "anuria",
+        "hypersensitivity to sulfonamides"
+      ],
+      "side_effects": [
+        "hypokalemia",
+        "hyponatremia",
+        "dehydration",
+        "hypotension",
+        "ototoxicity"
+      ],
+      "mechanism": "Inhibits Na-K-2Cl cotransporter in thick ascending limb of loop of Henle"
+    }
+  ],
+  "interactions": [
+    {
+      "drug_a": "alprazolam",
+      "drug_b": "oxycodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Alprazolam with Oxycodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "alprazolam",
+      "drug_b": "hydrocodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Alprazolam with Hydrocodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "alprazolam",
+      "drug_b": "morphine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Alprazolam with Morphine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "alprazolam",
+      "drug_b": "fentanyl",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Alprazolam with Fentanyl creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "alprazolam",
+      "drug_b": "tramadol",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Alprazolam with Tramadol creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "alprazolam",
+      "drug_b": "codeine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Alprazolam with Codeine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "alprazolam",
+      "drug_b": "hydromorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Alprazolam with Hydromorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "alprazolam",
+      "drug_b": "oxymorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Alprazolam with Oxymorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "alprazolam",
+      "drug_b": "methadone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Alprazolam with Methadone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "diazepam",
+      "drug_b": "oxycodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Diazepam with Oxycodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "diazepam",
+      "drug_b": "hydrocodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Diazepam with Hydrocodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "diazepam",
+      "drug_b": "morphine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Diazepam with Morphine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "diazepam",
+      "drug_b": "fentanyl",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Diazepam with Fentanyl creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "diazepam",
+      "drug_b": "tramadol",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Diazepam with Tramadol creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "diazepam",
+      "drug_b": "codeine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Diazepam with Codeine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "diazepam",
+      "drug_b": "hydromorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Diazepam with Hydromorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "diazepam",
+      "drug_b": "oxymorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Diazepam with Oxymorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "diazepam",
+      "drug_b": "methadone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Diazepam with Methadone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "lorazepam",
+      "drug_b": "oxycodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Lorazepam with Oxycodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "lorazepam",
+      "drug_b": "hydrocodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Lorazepam with Hydrocodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "lorazepam",
+      "drug_b": "morphine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Lorazepam with Morphine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "lorazepam",
+      "drug_b": "fentanyl",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Lorazepam with Fentanyl creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "lorazepam",
+      "drug_b": "tramadol",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Lorazepam with Tramadol creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "lorazepam",
+      "drug_b": "codeine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Lorazepam with Codeine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "lorazepam",
+      "drug_b": "hydromorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Lorazepam with Hydromorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "lorazepam",
+      "drug_b": "oxymorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Lorazepam with Oxymorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "lorazepam",
+      "drug_b": "methadone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Lorazepam with Methadone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "clonazepam",
+      "drug_b": "oxycodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Clonazepam with Oxycodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "clonazepam",
+      "drug_b": "hydrocodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Clonazepam with Hydrocodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "clonazepam",
+      "drug_b": "morphine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Clonazepam with Morphine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "clonazepam",
+      "drug_b": "fentanyl",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Clonazepam with Fentanyl creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "clonazepam",
+      "drug_b": "tramadol",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Clonazepam with Tramadol creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "clonazepam",
+      "drug_b": "codeine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Clonazepam with Codeine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "clonazepam",
+      "drug_b": "hydromorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Clonazepam with Hydromorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "clonazepam",
+      "drug_b": "oxymorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Clonazepam with Oxymorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "clonazepam",
+      "drug_b": "methadone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Clonazepam with Methadone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "temazepam",
+      "drug_b": "oxycodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Temazepam with Oxycodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "temazepam",
+      "drug_b": "hydrocodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Temazepam with Hydrocodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "temazepam",
+      "drug_b": "morphine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Temazepam with Morphine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "temazepam",
+      "drug_b": "fentanyl",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Temazepam with Fentanyl creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "temazepam",
+      "drug_b": "tramadol",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Temazepam with Tramadol creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "temazepam",
+      "drug_b": "codeine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Temazepam with Codeine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "temazepam",
+      "drug_b": "hydromorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Temazepam with Hydromorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "temazepam",
+      "drug_b": "oxymorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Temazepam with Oxymorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "temazepam",
+      "drug_b": "methadone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Temazepam with Methadone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "triazolam",
+      "drug_b": "oxycodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Triazolam with Oxycodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "triazolam",
+      "drug_b": "hydrocodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Triazolam with Hydrocodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "triazolam",
+      "drug_b": "morphine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Triazolam with Morphine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "triazolam",
+      "drug_b": "fentanyl",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Triazolam with Fentanyl creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "triazolam",
+      "drug_b": "tramadol",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Triazolam with Tramadol creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "triazolam",
+      "drug_b": "codeine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Triazolam with Codeine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "triazolam",
+      "drug_b": "hydromorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Triazolam with Hydromorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "triazolam",
+      "drug_b": "oxymorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Triazolam with Oxymorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "triazolam",
+      "drug_b": "methadone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Triazolam with Methadone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "oxazepam",
+      "drug_b": "oxycodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Oxazepam with Oxycodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "oxazepam",
+      "drug_b": "hydrocodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Oxazepam with Hydrocodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "oxazepam",
+      "drug_b": "morphine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Oxazepam with Morphine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "oxazepam",
+      "drug_b": "fentanyl",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Oxazepam with Fentanyl creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "oxazepam",
+      "drug_b": "tramadol",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Oxazepam with Tramadol creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "oxazepam",
+      "drug_b": "codeine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Oxazepam with Codeine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "oxazepam",
+      "drug_b": "hydromorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Oxazepam with Hydromorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "oxazepam",
+      "drug_b": "oxymorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Oxazepam with Oxymorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "oxazepam",
+      "drug_b": "methadone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Oxazepam with Methadone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "midazolam",
+      "drug_b": "oxycodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Midazolam with Oxycodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "midazolam",
+      "drug_b": "hydrocodone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Midazolam with Hydrocodone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "midazolam",
+      "drug_b": "morphine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Midazolam with Morphine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "midazolam",
+      "drug_b": "fentanyl",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Midazolam with Fentanyl creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "midazolam",
+      "drug_b": "tramadol",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Midazolam with Tramadol creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "midazolam",
+      "drug_b": "codeine",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Midazolam with Codeine creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "midazolam",
+      "drug_b": "hydromorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Midazolam with Hydromorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "midazolam",
+      "drug_b": "oxymorphone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Midazolam with Oxymorphone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "midazolam",
+      "drug_b": "methadone",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Synergistic CNS and respiratory depression",
+      "description": "Combining Midazolam with Methadone creates profound CNS depression and respiratory depression. FDA BLACK BOX WARNING: Concomitant use can result in profound sedation, respiratory depression, coma, and death.",
+      "clinical_effects": "Respiratory depression, profound sedation, coma, death, emergency department visits",
+      "recommendation": "AVOID COMBINATION. If absolutely necessary, use lowest effective doses of each and monitor continuously. Consider alternative therapies. Educate patient/family on overdose risk.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning, CDC Guidelines"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "aspirin",
+      "severity": "BLACK_FLAG",
+      "mechanism": "Additive antiplatelet and anticoagulant effects",
+      "description": "Warfarin combined with aspirin creates a 7.3-fold increased risk of major bleeding compared to warfarin alone.",
+      "clinical_effects": "Major bleeding (GI, intracranial, hematuria), hemorrhagic stroke, fatal bleeding",
+      "recommendation": "AVOID COMBINATION unless specifically indicated by cardiologist. If used, maintain INR at lower range (2.0-2.5), use lowest aspirin dose (75-81mg).",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "fluconazole",
+      "severity": "RED_FLAG",
+      "mechanism": "CYP2C9 inhibition increases warfarin levels",
+      "description": "Fluconazole significantly reduces warfarin metabolism, leading to elevated INR and increased bleeding risk.",
+      "clinical_effects": "Elevated INR (>5.0), increased bleeding risk, hemorrhage",
+      "recommendation": "Reduce warfarin dose by 25-50% when initiating fluconazole. Monitor INR within 2-3 days.",
+      "evidence_level": "HIGH",
+      "source": "FDA Drug Interaction Database"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "ibuprofen",
+      "severity": "RED_FLAG",
+      "mechanism": "NSAID increases bleeding risk through antiplatelet effects",
+      "description": "NSAIDs inhibit platelet function and cause GI ulceration, dramatically increasing bleeding risk with warfarin.",
+      "clinical_effects": "GI bleeding, increased bruising, hematuria, elevated INR",
+      "recommendation": "Avoid NSAIDs in warfarin patients. Use acetaminophen for pain. If NSAID necessary, add PPI.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning"
+    },
+    {
+      "drug_a": "clopidogrel",
+      "drug_b": "omeprazole",
+      "severity": "ORANGE_FLAG",
+      "mechanism": "CYP2C19 inhibition reduces clopidogrel activation",
+      "description": "Omeprazole prevents conversion of clopidogrel to active metabolite, reducing effectiveness.",
+      "clinical_effects": "Reduced antiplatelet effect, increased risk of MI, stent thrombosis",
+      "recommendation": "Avoid omeprazole. Use alternative PPI (pantoprazole) or H2 blocker.",
+      "evidence_level": "HIGH",
+      "source": "FDA Black Box Warning"
+    },
+    {
+      "drug_a": "sertraline",
+      "drug_b": "ibuprofen",
+      "severity": "ORANGE_FLAG",
+      "mechanism": "SSRI + NSAID increases GI bleeding risk",
+      "description": "SSRIs deplete platelet serotonin. Combined with NSAID, bleeding risk increases significantly.",
+      "clinical_effects": "GI bleeding, bruising, hemorrhage",
+      "recommendation": "Avoid NSAIDs. Use acetaminophen. If NSAID needed, add PPI protection.",
+      "evidence_level": "MODERATE-HIGH",
+      "source": "Multiple cohort studies"
+    },
+    {
+      "drug_a": "lisinopril",
+      "drug_b": "ibuprofen",
+      "severity": "YELLOW_FLAG",
+      "mechanism": "NSAID reduces ACE inhibitor effectiveness",
+      "description": "NSAIDs oppose ACE inhibitor effects and can cause acute kidney injury.",
+      "clinical_effects": "Reduced BP control, acute kidney injury, hyperkalemia",
+      "recommendation": "Avoid chronic NSAID use. Monitor BP and renal function if combination necessary.",
+      "evidence_level": "MODERATE",
+      "source": "Clinical pharmacology studies"
+    },
+    {
+      "drug_a": "atorvastatin",
+      "drug_b": "amlodipine",
+      "severity": "YELLOW_FLAG",
+      "mechanism": "CYP3A4 substrate competition",
+      "description": "Amlodipine can increase atorvastatin levels moderately.",
+      "clinical_effects": "Increased statin myopathy risk, muscle pain",
+      "recommendation": "Limit atorvastatin to 20mg daily with amlodipine per FDA guidance.",
+      "evidence_level": "MODERATE",
+      "source": "FDA guidance"
+    }
+  ]
+}
